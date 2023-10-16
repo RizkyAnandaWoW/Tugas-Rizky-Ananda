@@ -1,5 +1,5 @@
 <?php
-function isPrime($number) {
+function Prima($number) {
     if ($number <= 1) {
         return false;
     }
@@ -19,7 +19,7 @@ for ($x = 1; $x <= 19; $x++) {
         echo "Angka $x adalah bilangan ganjil";
     }
 
-    if (isPrime($x)) {
+    if (Prima($x)) {
         if ($x > 10) {
             echo " dan sekaligus bilangan prima";
         } else {
