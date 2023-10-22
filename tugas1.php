@@ -13,6 +13,7 @@ function Prima($number) {
 echo "Pengulangan Untuk Mencari kategori bilangan :<br>";
 for ($x = 1; $x <= 19; $x++) {
      echo "<br>";
+     echo "<li>";
     if ($x % 2 == 0) {
         echo "Angka $x adalah bilangan genap";
     } else {
